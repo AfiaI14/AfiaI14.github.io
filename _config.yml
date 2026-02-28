@@ -40,7 +40,7 @@ cv_pdf: Resume_Afia_Ibnath.pdf        # drop your PDF into assets/pdf/
 # -----------------------------------------------------------------------------
 # Theme & Display
 # -----------------------------------------------------------------------------
-theme: al-folio                       # or minima / minimal-mistakes
+remote_theme: alshedivat/al-folio                      # or minima / minimal-mistakes
 repo_theme_light: default
 repo_theme_dark:  dark
 repo_trophies:
