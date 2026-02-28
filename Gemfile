@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3'
-gem 'al-folio', path: '.'
+gem 'jekyll', '~> 4.3.4'
+gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
   gem 'jekyll-archives-v2'
@@ -16,11 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-toc'
   gem 'jemoji'
   gem 'classifier-reborn'
-end
-
-group :other_plugins do
   gem 'css_parser'
   gem 'observer'
   gem 'ostruct'
-  gem 'webrick'
 end
