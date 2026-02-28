@@ -4,6 +4,7 @@ gem 'jekyll', '~> 4.3.4'
 gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
+  gem 'jekyll-remote-theme'
   gem 'jekyll-archives-v2'
   gem 'jekyll-email-protect'
   gem 'jekyll-feed'
