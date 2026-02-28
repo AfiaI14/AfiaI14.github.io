@@ -1,34 +1,83 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Full-Stack Data Scientist · Berlin, Germany ·
+  <a href="mailto:afiacuet19@gmail.com">afiacuet19@gmail.com</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg          # put your photo in assets/img/profile.jpg
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📍 Berlin, Germany</p>
+    <p>🎓 MSc Data Science, Freie Universität Berlin</p>
+    <p>💼 Data Science Consultant @ Publicis Sapient</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: false
+selected_papers: false
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Hi, I'm Afia 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a full-stack data scientist with **4+ years of experience** in FinTech and AI consultancy,
+specialising in **NLP, RAG pipelines, fraud detection, and MLOps**. I love turning messy,
+real-world data into production-grade AI systems that actually move the needle for businesses.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Recently completed my **Master's thesis at Fraunhofer FOKUS**, researched how structured
+knowledge bases can be injected directly into LLaMA's transformer attention mechanisms to
+improve reasoning and open-ended question answering.
+
+---
+
+### What I've Built
+
+At **Publicis Sapient** (Berlin) I designed and shipped a cloud-native multi-agent system
+using LLMs and LangGraph that automated complex enterprise documentation workflows. I've also built RAG chatbots with
+Azure Cognitive Search, Graph RAG pipelines with knowledge graph embeddings, and
+dynamic pricing & churn prediction models on Databricks.
+
+Before that, at **SSL Wireless** (Dhaka) I led end-to-end ML projects across fraud
+detection, transaction monitoring, OCR-based KYC, and Bengali speech-to-text. 
+
+---
+
+### Research
+
+**Master's Thesis — Fraunhofer FOKUS / Freie Universität Berlin** *(2024–2025)*
+
+*Integrating Structured Knowledge Bases into LLM Attention Mechanisms*
+
+Fine-tuning a LLaMA-based model using a KBLAM-inspired architecture that injects
+structured knowledge entries directly into transformer attention layers — enabling
+improved reasoning without the latency overhead of traditional retrieval.
+
+`PyTorch` · `Transformers` · `Knowledge Graphs` · `HPC / Distributed Training`
+
+---
+
+### Core Skills
+
+| Area | Tools |
+|---|---|
+| **Languages** | Python · SQL · C++ |
+| **LLMs & Agents** | LangChain · LangGraph · LlamaIndex · Azure OpenAI · FAISS |
+| **ML / DL** | PyTorch · TensorFlow · Scikit-learn · Keras · OpenCV |
+| **MLOps** | MLflow · Docker · FastAPI · CI/CD · Azure |
+| **Data** | PySpark · Pandas · Databricks · NumPy |
+
+---
+
+### Recognition
+
+🏆 **Core Value Member Award 2024** — Publicis Sapient, for contributions in applied AI innovation.
+
+---
+
+### Outside of Work
+
+When I'm not building models you'll find me competing on Kaggle — I ranked **6th out of
+59 teams** in the Bengali Automatic Speech Recognition competition at BUET CSE Fest 2022,
+and placed in the **top 12%** of the U.S. Patent Phrase Matching competition.
