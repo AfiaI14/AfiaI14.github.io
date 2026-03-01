@@ -35,7 +35,7 @@ scholar_userid:
 # -----------------------------------------------------------------------------
 # CV / Resume
 # -----------------------------------------------------------------------------
-cv_pdf: Resume_Afia_Ibnath.pdf        # drop your PDF into assets/pdf/
+#cv_pdf: Resume_Afia_Ibnath.pdf        # drop your PDF into assets/pdf/
 
 # -----------------------------------------------------------------------------
 # Theme & Display
@@ -60,7 +60,7 @@ collections:
     defaults:
       layout: post
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 # -----------------------------------------------------------------------------
