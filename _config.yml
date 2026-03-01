@@ -77,6 +77,15 @@ exclude:
   - vendor
 
 plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-scholar
+  - jekyll-toc
+  - jekyll-tabs
+  - jekyll-link-attributes
+  - jekyll-paginate-v2
+  - jekyll-email-protect
+  - jekyll-imagemagick
+  - jemoji
