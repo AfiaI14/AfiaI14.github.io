@@ -21,8 +21,8 @@ keywords: data scientist, NLP, RAG, LLM, MLOps, fraud detection, Berlin
 # -----------------------------------------------------------------------------
 # Social Links  (leave blank to hide)
 # -----------------------------------------------------------------------------
-github_username:   afia-ibnath        # → https://github.com/AfiaI14
-linkedin_username: afia-ibnath        # → linkedin.com/in/afia-ibnath14
+github_username:   AfiaI14        # → https://github.com/AfiaI14
+linkedin_username: afia-ibnath14        # → linkedin.com/in/afia-ibnath14
 kaggle_id:         afiaibnath         # → kaggle.com/afiaibnath
 email_username:    afiacuet19@gmail.com
 
@@ -68,7 +68,7 @@ collections:
 # -----------------------------------------------------------------------------
 markdown:    kramdown
 highlighter: rouge
-permalink:   latest
+permalink: /:title/
 
 exclude:
   - Gemfile
