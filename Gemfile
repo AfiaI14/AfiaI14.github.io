@@ -5,6 +5,7 @@ gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
   gem 'jekyll-remote-theme'
+  gem 'jekyll-seo-tag'
   gem 'jekyll-archives-v2'
   gem 'jekyll-email-protect'
   gem 'jekyll-feed'
@@ -20,4 +21,8 @@ group :jekyll_plugins do
   gem 'css_parser'
   gem 'observer'
   gem 'ostruct'
+  gem 'feedjira'
+  gem 'httparty'
+  gem 'nokogiri'
+  gem 'rake'
 end
