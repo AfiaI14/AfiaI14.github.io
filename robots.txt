@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://afia-ibnath.github.io/sitemap.xml
+Sitemap: https://afiai14.github.io/sitemap.xml
