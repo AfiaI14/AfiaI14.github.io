@@ -75,7 +75,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-
+  
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -88,4 +88,5 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-email-protect
   - jekyll-imagemagick
+  - jekyll-socials
   - jemoji
