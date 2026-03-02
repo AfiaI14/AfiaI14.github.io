@@ -167,7 +167,7 @@
     <a href="#" class="logo">AFIA<span>IBNATH</span></a>
     <div class="top-bar-actions">
       <a href="mailto:afiacuet19@gmail.com" class="btn btn-ghost">✉ Contact Me</a>
-      <a href="#" class="btn btn-primary">⬇ Download Resume</a>
+      <!-- <a href="#" class="btn btn-primary">⬇ Download Resume</a> -->
     </div>
   </div>
 
@@ -235,7 +235,7 @@
       </div>
       <div class="bio-card">
         <h3>Current Research</h3>
-        <p>Recently completed my Master's thesis supervised by <strong>Dr. Thomas Hoppe (Fraunhofer FOKUS)</strong>, researching the integration of structured knowledge bases into LLaMA's transformer attention mechanisms using a KBLAM-inspired architecture.</p>
+        <p>Recently completed my Master's thesis supervised by <strong>Dr. Thomas Hoppe (Fraunhofer FOKUS)</strong>, researched the integration of structured knowledge bases into LLaMA's transformer attention mechanisms using a KBLAM-inspired architecture.</p>
         <p>The work focuses on injecting structured knowledge entries directly into attention layers, enabling improved reasoning and open-ended QA without the latency overhead of traditional retrieval pipelines.</p>
         <div class="tech-row" style="margin-top:16px">
           <span class="tech-chip">PyTorch</span><span class="tech-chip">Transformers</span><span class="tech-chip">Knowledge Graphs</span><span class="tech-chip">HPC / Distributed Training</span><span class="tech-chip">LLaMA</span>
@@ -381,36 +381,84 @@
     </div>
   </div>
 
-  <!-- RECOMMENDATIONS -->
+<!-- RECOMMENDATIONS -->
   <div id="tab-recommendations" class="section">
     <div class="container">
       <div class="section-title">Recommendations</div>
-      <div class="section-sub">What colleagues and managers say — add yours from LinkedIn</div>
-      <div class="rec-grid">
-        <div class="rec-card">
-          <p class="rec-quote">I can highly recommend her for any AI‑focused role.
-         I had the pleasure of working with Afia, and she consistently impressed all of us in the Sapient Data & AI team with her strong analytical mindset, deep technical competence, and remarkable independence. During her time with us, she contributed meaningfully to several applied AI initiatives: both client‑facing, billable work and internal business‑development efforts.
-         Afia combines both breadth and depth in Data Science, Applied AI, and ML research. She works with minimal input, asks the right questions, challenges assumptions thoughtfully, and conducts additional research to elevate the quality of her solutions.
-         A great example of this was a business‑development AI Agent demo she built. The goal was to showcase an agent that verifies GDPR compliance across various contract documents to support legal procurement processes. She not only delivered the prototype (and continuously improved it based on our feedback) but also proactively added a UI from a lawyer’s perspective, which significantly strengthened our pitches and sales conversations. Throughout this initiative, she consistently impressed me by asking the right questions, proactively researching relevant business‑domain topics (legal processes, regulations, etc.), and proposing improvements and enhancements on her own.
-         Beyond her technical strengths, Afia is a genuinely great person to work with: open, collaborative, and highly appreciated by everyone on the team. An absolute team player.</p>
-          <div class="rec-author"><div class="rec-avatar">👤</div><div><div class="rec-name">André Koriath</div><div class="rec-role">Former Head of Data Strategy, Science & Engineering · Publicis Sapient</div></div></div>
+      <div class="section-sub">What colleagues and managers say</div>
+
+      <div style="display:flex; flex-direction:column; gap:20px;">
+
+        <!-- André Koriath -->
+        <div class="rec-card" style="border-radius:16px; padding:36px; border-left: 4px solid var(--accent);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:20px; flex-wrap:wrap; gap:12px;">
+            <div class="rec-author">
+              <div class="rec-avatar" style="width:52px;height:52px;font-size:1.4rem;">👤</div>
+              <div>
+                <div class="rec-name" style="font-size:1rem;">André Koriath</div>
+                <div class="rec-role">Former Head of Data Strategy, Science & Engineering</div>
+                <div class="rec-role">Publicis Sapient</div>
+              </div>
+            </div>
+            <div style="display:flex; gap:3px; color:#f59e0b; font-size:1rem;">★★★★★</div>
+          </div>
+          <p class="rec-quote" style="font-size:0.92rem; line-height:1.85; padding-left:22px;">
+            I can highly recommend her for any AI‑focused role. I had the pleasure of working with Afia, and she consistently impressed all of us in the Sapient Data & AI team with her strong analytical mindset, deep technical competence, and remarkable independence. During her time with us, she contributed meaningfully to several applied AI initiatives: both client‑facing, billable work and internal business‑development efforts.
+            <br><br>
+            Afia combines both breadth and depth in Data Science, Applied AI, and ML research. She works with minimal input, asks the right questions, challenges assumptions thoughtfully, and conducts additional research to elevate the quality of her solutions.
+            <br><br>
+            A great example was a business‑development AI Agent demo she built to showcase GDPR compliance verification across contract documents. She not only delivered the prototype and continuously improved it, but also proactively added a UI from a lawyer's perspective — which significantly strengthened our pitches and sales conversations.
+            <br><br>
+            Beyond her technical strengths, Afia is a genuinely great person to work with: open, collaborative, and highly appreciated by everyone on the team. An absolute team player.
+          </p>
         </div>
-        <div class="rec-card">
-          <p class="rec-quote">We've been fortunate to have Afia as a working student in the data domain at Publicis Sapient.She has contributed meaningfully to a number of initiatives in the applied AI space, including working directly with a client on a billable project while writing her MSc. thesis.
-          In terms of technical competencies, Afia has both depth and breadth; in addition, she's dedicated, gets along with everyone, and demonstrates good judgment.
-          I would confidently recommend her for applied AI, ML research, or adjacent roles.</p>
-          <div class="rec-author"><div class="rec-avatar">👤</div><div><div class="rec-name">Samuel Clampitt</div><div class="rec-role">Senior Manager Data Science · Publicis Sapient</div></div></div>
-        </div>
-        <div class="rec-card">
-          <p class="rec-quote">I had the pleasure of working with Afia, who impressed with her strong analytical mindset and hands-on expertise in Data Science and Analytics. Already during her studies, she gained relevant project experience in both client-facing and internal settings, where she successfully applied her technical skills to deliver meaningful results. Afia is reliable, proactive, 
-            and highly appreciated within the team—not only for her professionalism, but also for her open and transparent way of collaborating with others.</p>
-          <div class="rec-author"><div class="rec-avatar">👤</div><div><div class="rec-name">
-Maximilian Meingast</div><div class="rec-role">Senior Manager Data Science · Publicis Sapient</div></div></div>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px;">
+
+          <!-- Samuel Clampitt -->
+          <div class="rec-card" style="border-radius:16px; padding:32px; border-left: 4px solid var(--accent2);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:18px;">
+              <div class="rec-author">
+                <div class="rec-avatar" style="width:48px;height:48px;font-size:1.3rem; background:var(--accent2-light);">👤</div>
+                <div>
+                  <div class="rec-name">Samuel Clampitt</div>
+                  <div class="rec-role">Senior Manager Data Science</div>
+                  <div class="rec-role">Publicis Sapient</div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex; gap:3px; color:#f59e0b; font-size:0.9rem; margin-bottom:14px;">★★★★★</div>
+            <p class="rec-quote" style="font-size:0.9rem; line-height:1.8; padding-left:20px;">
+              We've been fortunate to have Afia as a working student in the data domain at Publicis Sapient. She has contributed meaningfully to a number of initiatives in the applied AI space, including working directly with a client on a billable project while writing her MSc thesis.
+              <br><br>
+              In terms of technical competencies, Afia has both depth and breadth; in addition, she's dedicated, gets along with everyone, and demonstrates good judgment. I would confidently recommend her for applied AI, ML research, or adjacent roles.
+            </p>
+          </div>
+
+          <!-- Maximilian Meingast -->
+          <div class="rec-card" style="border-radius:16px; padding:32px; border-left: 4px solid var(--green);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:18px;">
+              <div class="rec-author">
+                <div class="rec-avatar" style="width:48px;height:48px;font-size:1.3rem; background:var(--green-light);">👤</div>
+                <div>
+                  <div class="rec-name">Maximilian Meingast</div>
+                  <div class="rec-role">Senior Manager Data Science</div>
+                  <div class="rec-role">Publicis Sapient</div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex; gap:3px; color:#f59e0b; font-size:0.9rem; margin-bottom:14px;">★★★★★</div>
+            <p class="rec-quote" style="font-size:0.9rem; line-height:1.8; padding-left:20px;">
+              I had the pleasure of working with Afia, who impressed with her strong analytical mindset and hands-on expertise in Data Science and Analytics. Already during her studies, she gained relevant project experience in both client-facing and internal settings, where she successfully applied her technical skills to deliver meaningful results.
+              <br><br>
+              Afia is reliable, proactive, and highly appreciated within the team — not only for her professionalism, but also for her open and transparent way of collaborating with others.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
-
   <!-- EDUCATION -->
   <div id="tab-education" class="section">
     <div class="container">
